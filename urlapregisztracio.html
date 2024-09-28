@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Űrlap regisztráció</title>
+  </head>
+  <body>
+    <form method="post" action="regisztracio.php">
+      <input type="text" required placeholder="Teljes név" /><br />
+      <input type="Jelszó" required /><br />
+      <input type="text" required placeholder="E-mail cím" /><br />
+      <form>
+        <input type="radio" id="f" name="fav_language" value="f" />
+        <label for="f">Férfi</label><br />
+        <input type="radio" id="n" name="fav_language" value="n" />
+        <label for="n">Nő</label><br />
+        <input type="radio" id="e" name="fav_language" value="e" />
+        <label for="e">Egyéb</label>
+      </form>
+      <input type="submit" value="Regisztrálok" /><br />
+    </form>
+  </body>
+</html>
